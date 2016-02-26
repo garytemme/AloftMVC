@@ -1,0 +1,647 @@
+﻿ 2016-02-19 05:36:53,212 [P3436/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.4.0 application starting on WIN-CD4BT6VKQNT
+ 2016-02-19 05:36:53,327 [P3436/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-02-19 05:36:53,337 [P3436/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 10ms)
+ 2016-02-19 05:36:53,502 [P3436/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-02-19 05:36:53,806 [P3436/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 304ms)
+ 2016-02-19 05:36:54,036 [P3436/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-02-19 05:36:54,041 [P3436/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 4ms)
+ 2016-02-19 05:36:54,041 [P3436/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-02-19 05:36:54,044 [P3436/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 2ms)
+ 2016-02-19 05:36:54,064 [P3436/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-02-19 05:36:54,067 [P3436/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 3ms)
+ 2016-02-19 05:36:54,067 [P3436/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-02-19 05:36:54,100 [P3436/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 32ms)
+ 2016-02-19 05:36:54,318 [P3436/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-02-19 05:36:54,324 [P3436/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 5ms)
+ 2016-02-19 05:36:54,324 [P3436/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-02-19 05:36:54,325 [P3436/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2016-02-19 05:36:55,869 [P3436/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-02-19 05:36:56,986 [P3436/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-02-19 05:36:57,281 [P3436/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-02-19 05:36:57,519 [P3436/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-02-19 05:36:57,650 [P3436/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-02-19 05:36:57,742 [P3436/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-02-19 05:36:57,765 [P3436/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 4623ms)
+ 2016-02-19 05:37:03,055 [P3436/D2/T9] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:55026/umbraco (UmbracoModule request)
+ 2016-02-19 05:37:03,236 [P3436/D2/T9] INFO  umbraco.content - Load Xml from file...
+ 2016-02-19 05:37:03,242 [P3436/D2/T9] INFO  umbraco.content - Loaded Xml from file.
+ 2016-02-19 05:37:03,935 [P3436/D2/T9] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-02-19 05:37:03,937 [P3436/D2/T9] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 2ms)
+ 2016-02-19 05:38:05,420 [P3436/D2/T9] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-02-18 05:38:05
+ 2016-02-19 05:38:05,498 [P3436/D2/T14] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-02-19 05:38:05,498 [P3436/D2/T14] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 2ms)
+ 2016-02-19 05:38:42,016 [P3436/D2/T14] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username admin from IP address ::1
+ 2016-02-19 05:38:42,016 [P3436/D2/T14] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: admin logged in from IP address ::1
+ 2016-02-19 05:38:42,170 [P3436/D2/T14] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-02-19 05:38:42,173 [P3436/D2/T14] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 2ms)
+ 2016-02-19 05:38:42,335 [P3436/D2/T14] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-02-19 05:38:42,336 [P3436/D2/T14] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 0ms)
+ 2016-02-19 05:38:42,545 [P3436/D2/T14] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-02-19 05:38:42,547 [P3436/D2/T14] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2016-02-19 05:38:42,549 [P3436/D2/T14] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-02-19 05:38:42,549 [P3436/D2/T14] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2016-02-19 05:38:42,858 [P3436/D2/T14] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-02-19 05:38:42,861 [P3436/D2/T14] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 2ms)
+ 2016-02-19 06:26:59,527 [P3436/D2/T35] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-02-19 06:26:59,529 [P3436/D2/T35] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 2ms)
+ 2016-02-19 06:38:59,563 [P3436/D2/T37] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 06:38:59,690 [P3436/D2/T37] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-02-19 06:38:59,694 [P3436/D2/T37] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 4ms)
+ 2016-02-19 06:39:03,950 [P3436/D2/T10] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 06:39:03,981 [P3436/D2/T10] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 06:54:17,632 [P3436/D2/T54] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: admin, IP Address: ::1
+ 2016-02-19 06:54:32,811 [P3436/D2/T51] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username admin from IP address ::1
+ 2016-02-19 06:54:32,811 [P3436/D2/T51] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: admin logged in from IP address ::1
+ 2016-02-19 06:55:32,205 [P3436/D2/T41] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 06:55:36,265 [P3436/D2/T7] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 06:55:36,288 [P3436/D2/T28] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 07:00:45,070 [P3436/D2/T54] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 07:00:49,092 [P3436/D2/T40] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 07:00:49,133 [P3436/D2/T43] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 07:02:29,490 [P3436/D2/T7] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Fly With Us' with Id '0' has been published.
+ 2016-02-19 07:02:33,568 [P3436/D2/T40] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 07:02:33,593 [P3436/D2/T50] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 07:03:25,548 [P3436/D2/T44] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Fly With Us' with Id '1083' has been unpublished.
+ 2016-02-19 07:03:29,605 [P3436/D2/T7] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 07:03:29,637 [P3436/D2/T50] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 07:07:06,645 [P3436/D2/T52] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Fly' with Id '0' has been published.
+ 2016-02-19 07:07:10,676 [P3436/D2/T43] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 07:07:10,699 [P3436/D2/T49] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 07:10:50,545 [P3436/D2/T39] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Fly' with Id '1084' has been published.
+ 2016-02-19 07:10:54,572 [P3436/D2/T44] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 07:10:54,607 [P3436/D2/T55] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 07:11:07,398 [P3436/D2/T39] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Fly' with Id '1084' has been published.
+ 2016-02-19 07:11:11,430 [P3436/D2/T63] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 07:11:11,455 [P3436/D2/T60] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 07:14:49,541 [P3436/D2/T68] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Browse Fleet' with Id '0' has been published.
+ 2016-02-19 07:14:53,561 [P3436/D2/T39] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 07:14:53,596 [P3436/D2/T70] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 07:52:29,092 [P3436/D2/T7] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-02-19 07:56:36,790 [P3436/D2/T24] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username admin from IP address ::1
+ 2016-02-19 07:56:36,790 [P3436/D2/T24] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: admin logged in from IP address ::1
+ 2016-02-19 08:01:00,643 [P3436/D2/T56] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Umbraco Forms' with Id '1073' has been published.
+ 2016-02-19 08:01:04,789 [P3436/D2/T39] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 08:01:04,844 [P3436/D2/T53] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 08:02:23,715 [P3436/D2/T56] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Extend' with Id '1072' has been unpublished.
+ 2016-02-19 08:02:27,740 [P3436/D2/T53] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 08:02:27,769 [P3436/D2/T37] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 08:02:28,066 [P3436/D2/T56] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Extend' with Id '1072' has been published.
+ 2016-02-19 08:02:32,271 [P3436/D2/T53] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 08:02:32,303 [P3436/D2/T31] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 08:02:37,737 [P3436/D2/T13] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Extend' with Id '1072' has been unpublished.
+ 2016-02-19 08:02:41,762 [P3436/D2/T56] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 08:02:41,793 [P3436/D2/T37] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 08:02:44,111 [P3436/D2/T40] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-02-19 08:16:06,647 [P3436/D2/T42] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: admin, IP Address: ::1
+ 2016-02-19 08:47:39,147 [P3436/D2/T47] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username admin from IP address ::1
+ 2016-02-19 08:47:45,345 [P3436/D2/T36] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username admin from IP address ::1
+ 2016-02-19 08:47:45,345 [P3436/D2/T36] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: admin logged in from IP address ::1
+ 2016-02-19 08:48:26,237 [P3436/D2/T47] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 08:48:30,366 [P3436/D2/T26] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 08:48:30,500 [P3436/D2/T26] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 08:49:16,309 [P3436/D2/T22] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-02-19 08:49:16,312 [P3436/D2/T22] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 2ms)
+ 2016-02-19 08:49:40,020 [P3436/D2/T22] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 08:49:44,055 [P3436/D2/T26] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 08:49:44,139 [P3436/D2/T26] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 08:50:32,193 [P3436/D2/T34] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 08:50:36,242 [P3436/D2/T26] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 08:50:36,269 [P3436/D2/T32] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 08:52:38,917 [P3436/D2/T39] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 08:52:42,962 [P3436/D2/T23] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 08:52:43,035 [P3436/D2/T21] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 08:54:28,379 [P3436/D2/T15] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 08:54:32,468 [P3436/D2/T18] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 08:54:32,511 [P3436/D2/T16] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 09:09:11,740 [P3436/D2/T22] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 09:09:15,839 [P3436/D2/T15] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 09:09:15,856 [P3436/D2/T20] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 09:09:49,590 [P3436/D2/T15] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 09:09:53,699 [P3436/D2/T20] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 09:09:53,886 [P3436/D2/T31] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 09:10:14,592 [P3436/D2/T23] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 09:10:18,636 [P3436/D2/T20] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 09:10:18,680 [P3436/D2/T30] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 09:28:07,449 [P3436/D2/T25] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: admin, IP Address: ::1
+ 2016-02-19 09:29:19,264 [P3436/D2/T22] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username admin from IP address ::1
+ 2016-02-19 09:29:19,264 [P3436/D2/T22] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: admin logged in from IP address ::1
+ 2016-02-19 09:30:05,340 [P3436/D2/T25] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 09:30:09,568 [P3436/D2/T20] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 09:30:09,605 [P3436/D2/T22] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 09:30:14,199 [P3436/D2/T18] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 09:30:18,227 [P3436/D2/T22] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 09:30:18,267 [P3436/D2/T57] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 09:33:20,067 [P3436/D2/T38] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 09:33:24,217 [P3436/D2/T23] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 09:33:24,482 [P3436/D2/T24] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 09:34:34,960 [P3436/D2/T15] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 09:34:39,002 [P3436/D2/T23] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 09:34:39,016 [P3436/D2/T47] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 09:35:14,452 [P3436/D2/T22] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 09:35:18,529 [P3436/D2/T23] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 09:35:18,609 [P3436/D2/T7] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 09:39:35,704 [P3436/D2/T18] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 09:39:39,789 [P3436/D2/T23] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 09:39:39,898 [P3436/D2/T46] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 09:52:47,908 [P3436/D2/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-02-19 09:52:47,913 [P3436/D2/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 6ms)
+ 2016-02-19 09:53:32,626 [P3436/D2/T26] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 09:53:36,743 [P3436/D2/T23] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 09:53:36,772 [P3436/D2/T23] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 09:55:04,000 [P3436/D2/T18] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 09:55:08,057 [P3436/D2/T23] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 09:55:08,222 [P3436/D2/T47] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 09:57:38,672 [P3436/D2/T9] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-02-18 09:57:38
+ 2016-02-19 10:01:55,547 [P3436/D2/T38] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 10:01:59,573 [P3436/D2/T23] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 10:01:59,618 [P3436/D2/T45] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 10:04:47,743 [P3436/D2/T20] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Fly' with Id '1084' has been published.
+ 2016-02-19 10:04:51,772 [P3436/D2/T38] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 10:04:51,898 [P3436/D2/T45] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 10:21:29,973 [P3436/D2/T25] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: admin, IP Address: ::1
+ 2016-02-19 10:29:28,946 [P3436/D2/T23] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username admin from IP address ::1
+ 2016-02-19 10:29:28,946 [P3436/D2/T23] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: admin logged in from IP address ::1
+ 2016-02-19 10:30:17,497 [P3436/D2/T39] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 10:30:21,527 [P3436/D2/T22] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 10:30:21,602 [P3436/D2/T22] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 10:31:54,254 [P3436/D2/T26] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 10:31:58,287 [P3436/D2/T22] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 10:31:58,350 [P3436/D2/T50] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 10:48:58,441 [P3436/D2/T38] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: admin, IP Address: ::1
+ 2016-02-19 11:00:07,386 [P3436/D2/T20] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username admin from IP address ::1
+ 2016-02-19 11:00:07,386 [P3436/D2/T20] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: admin logged in from IP address ::1
+ 2016-02-19 11:03:43,985 [P3436/D2/T39] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 11:03:48,168 [P3436/D2/T34] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 11:03:48,189 [P3436/D2/T34] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 11:09:54,628 [P3436/D2/T15] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 11:09:58,665 [P3436/D2/T34] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 11:09:58,721 [P3436/D2/T24] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 11:09:58,897 [P3436/D2/T22] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 11:10:02,940 [P3436/D2/T34] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 11:10:02,981 [P3436/D2/T7] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 11:10:21,868 [P3436/D2/T22] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 11:10:25,961 [P3436/D2/T51] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 11:10:26,112 [P3436/D2/T7] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 11:11:45,647 [P3436/D2/T34] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 11:11:49,687 [P3436/D2/T20] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 11:11:49,748 [P3436/D2/T46] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 11:12:14,231 [P3436/D2/T26] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 11:12:18,430 [P3436/D2/T20] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 11:12:18,588 [P3436/D2/T53] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 11:13:04,839 [P3436/D2/T40] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 11:13:08,874 [P3436/D2/T20] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 11:13:08,930 [P3436/D2/T7] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 11:16:21,291 [P3436/D2/T51] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 11:16:25,334 [P3436/D2/T26] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 11:16:25,442 [P3436/D2/T30] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 11:17:22,541 [P3436/D2/T15] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 11:17:26,575 [P3436/D2/T51] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 11:17:26,666 [P3436/D2/T30] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 11:20:39,789 [P3436/D2/T20] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 11:20:43,823 [P3436/D2/T51] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 11:20:43,907 [P3436/D2/T32] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 11:22:40,902 [P3436/D2/T26] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 11:22:44,928 [P3436/D2/T20] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 11:22:45,010 [P3436/D2/T46] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 11:23:25,434 [P3436/D2/T39] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 11:23:29,460 [P3436/D2/T20] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 11:23:29,522 [P3436/D2/T7] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 11:24:01,262 [P3436/D2/T39] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 11:24:05,292 [P3436/D2/T20] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 11:24:05,357 [P3436/D2/T16] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 11:42:40,149 [P3436/D2/T51] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: admin, IP Address: ::1
+ 2016-02-19 11:42:45,154 [P3436/D2/T18] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: admin, IP Address: ::1
+ 2016-02-19 11:52:40,813 [P3436/D2/T26] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username admin from IP address ::1
+ 2016-02-19 11:52:40,813 [P3436/D2/T26] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: admin logged in from IP address ::1
+ 2016-02-19 11:53:11,289 [P3436/D2/T34] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 11:53:15,397 [P3436/D2/T22] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 11:53:15,454 [P3436/D2/T60] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 11:53:34,046 [P3436/D2/T34] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 11:53:38,077 [P3436/D2/T51] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 11:53:38,184 [P3436/D2/T29] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 11:54:59,590 [P3436/D2/T18] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Explore' with Id '1068' has been unpublished.
+ 2016-02-19 11:55:03,622 [P3436/D2/T51] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 11:55:03,680 [P3436/D2/T21] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 11:55:31,041 [P3436/D2/T38] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Fly' with Id '1084' has been published.
+ 2016-02-19 11:55:31,276 [P3436/D2/T38] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Browse Fleet' with Id '1085' has been published.
+ 2016-02-19 11:55:35,309 [P3436/D2/T51] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 11:55:35,525 [P3436/D2/T29] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 11:56:16,904 [P3436/D2/T26] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Fly' with Id '1084' has been published.
+ 2016-02-19 11:56:16,904 [P3436/D2/T26] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Learn' with Id '1064' has been published.
+ 2016-02-19 11:56:16,904 [P3436/D2/T26] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Blog' with Id '1075' has been published.
+ 2016-02-19 11:56:16,904 [P3436/D2/T26] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '1079' has been published.
+ 2016-02-19 11:56:21,304 [P3436/D2/T15] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 11:56:21,349 [P3436/D2/T29] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 11:56:34,595 [P3436/D2/T40] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Pilot' with Id '0' has been published.
+ 2016-02-19 11:56:38,708 [P3436/D2/T34] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 11:56:38,747 [P3436/D2/T27] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 11:56:55,504 [P3436/D2/T39] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Pilot' with Id '1090' has been published.
+ 2016-02-19 11:56:55,506 [P3436/D2/T39] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Learn' with Id '1064' has been published.
+ 2016-02-19 11:56:55,510 [P3436/D2/T39] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Blog' with Id '1075' has been published.
+ 2016-02-19 11:56:55,512 [P3436/D2/T39] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '1079' has been published.
+ 2016-02-19 11:56:59,673 [P3436/D2/T18] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 11:56:59,713 [P3436/D2/T21] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 11:57:12,190 [P3436/D2/T15] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-02-19 12:04:52,770 [P3436/D2/T36] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field crops
+ 2016-02-19 12:07:23,823 [P3436/D2/T38] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field crops
+ 2016-02-19 12:18:19,528 [P3436/D2/T36] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 12:18:23,553 [P3436/D2/T34] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 12:18:23,597 [P3436/D2/T27] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 12:19:56,121 [P3436/D2/T25] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 12:20:00,153 [P3436/D2/T51] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 12:20:00,273 [P3436/D2/T12] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 12:35:08,892 [P3436/D2/T26] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: admin, IP Address: ::1
+ 2016-02-19 12:39:58,837 [P3436/D2/T51] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username admin from IP address ::1
+ 2016-02-19 12:39:58,837 [P3436/D2/T51] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: admin logged in from IP address ::1
+ 2016-02-19 12:40:37,187 [P3436/D2/T40] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 12:40:41,227 [P3436/D2/T18] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 12:40:41,238 [P3436/D2/T21] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 12:44:33,058 [P3436/D2/T34] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 12:44:37,083 [P3436/D2/T22] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 12:44:37,109 [P3436/D2/T57] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 12:49:03,856 [P3436/D2/T25] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 12:49:07,920 [P3436/D2/T20] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 12:49:07,964 [P3436/D2/T29] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 12:50:31,375 [P3436/D2/T38] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 12:50:35,488 [P3436/D2/T40] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 12:50:35,613 [P3436/D2/T7] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 12:59:39,860 [P3436/D2/T36] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 12:59:43,892 [P3436/D2/T25] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 12:59:43,934 [P3436/D2/T29] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 13:01:08,776 [P3436/D2/T26] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 13:01:13,025 [P3436/D2/T18] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 13:01:13,063 [P3436/D2/T30] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 13:03:56,209 [P3436/D2/T51] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 13:04:00,309 [P3436/D2/T22] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 13:04:00,356 [P3436/D2/T30] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 13:05:34,003 [P3436/D2/T20] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-02-19 13:05:34,005 [P3436/D2/T20] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 2ms)
+ 2016-02-19 13:09:14,715 [P3436/D2/T36] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 13:09:18,745 [P3436/D2/T25] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 13:09:18,934 [P3436/D2/T32] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 13:13:19,906 [P3436/D2/T26] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 13:13:24,031 [P3436/D2/T25] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 13:13:24,395 [P3436/D2/T13] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 14:04:35,256 [P3436/D2/T20] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-02-18 14:04:35
+ 2016-02-19 14:15:54,180 [P3436/D2/T18] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: admin, IP Address: ::1
+ 2016-02-19 14:16:53,588 [P3436/D2/T18] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username admin from IP address ::1
+ 2016-02-19 14:16:53,588 [P3436/D2/T18] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: admin logged in from IP address ::1
+ 2016-02-19 14:36:23,949 [P3436/D2/T18] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: admin, IP Address: ::1
+ 2016-02-19 18:04:34,826 [P3436/D2/T20] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-02-18 18:04:34
+ 2016-02-19 18:12:25,855 [P3436/D2/T26] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username admin from IP address ::1
+ 2016-02-19 18:12:25,855 [P3436/D2/T26] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: admin logged in from IP address ::1
+ 2016-02-19 18:51:56,923 [P3436/D2/T37] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2016-02-19 18:51:56,926 [P3436/D2/T37] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2016-02-19 18:51:56,945 [P3436/D2/T20] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2016-02-19 18:51:57,110 [P3436/D2/T37] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2016-02-19 18:51:57,110 [P3436/D2/T37] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2016-02-19 18:51:57,111 [P3436/D2/T22] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2016-02-19 18:51:57,132 [P3436/D2/T37] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2016-02-19 18:51:57,132 [P3436/D2/T37] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2016-02-19 18:51:57,132 [P3436/D2/T37] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2016-02-19 18:51:57,132 [P3436/D2/T37] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2016-02-19 18:51:57,132 [P3436/D2/T37] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2016-02-19 18:51:57,132 [P3436/D2/T37] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2016-02-19 18:51:57,132 [P3436/D2/T45] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2016-02-19 18:51:57,132 [P3436/D2/T39] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2016-02-19 18:51:57,134 [P3436/D2/T11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2016-02-19 18:52:05,168 [P3436/D3/T19] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.4.0 application starting on WIN-CD4BT6VKQNT
+ 2016-02-19 18:52:05,247 [P3436/D3/T19] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-02-19 18:52:05,266 [P3436/D3/T19] INFO  Umbraco.Core.PluginManager - Hash determined (took 19ms)
+ 2016-02-19 18:52:05,485 [P3436/D3/T19] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-02-19 18:52:05,714 [P3436/D3/T19] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 229ms)
+ 2016-02-19 18:52:05,898 [P3436/D3/T19] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-02-19 18:52:05,901 [P3436/D3/T19] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+ 2016-02-19 18:52:05,903 [P3436/D3/T19] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-02-19 18:52:05,908 [P3436/D3/T19] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 4ms)
+ 2016-02-19 18:52:05,921 [P3436/D3/T19] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-02-19 18:52:05,925 [P3436/D3/T19] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 3ms)
+ 2016-02-19 18:52:05,925 [P3436/D3/T19] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-02-19 18:52:05,939 [P3436/D3/T19] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 14ms)
+ 2016-02-19 18:52:06,054 [P3436/D3/T19] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-02-19 18:52:06,054 [P3436/D3/T19] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2016-02-19 18:52:06,055 [P3436/D3/T19] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-02-19 18:52:06,055 [P3436/D3/T19] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2016-02-19 18:52:08,279 [P3436/D3/T19] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-02-19 18:52:08,529 [P3436/D3/T19] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-02-19 18:52:08,563 [P3436/D3/T19] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-02-19 18:52:08,587 [P3436/D3/T19] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-02-19 18:52:08,656 [P3436/D3/T19] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-02-19 18:52:08,741 [P3436/D3/T19] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-02-19 18:52:08,764 [P3436/D3/T19] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 3688ms)
+ 2016-02-19 18:52:12,708 [P3436/D3/T22] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:55026/umbraco (UmbracoModule request)
+ 2016-02-19 18:52:13,214 [P3436/D3/T22] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-02-19 18:52:13,220 [P3436/D3/T22] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 5ms)
+ 2016-02-19 18:52:13,469 [P3436/D3/T22] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-02-19 18:52:13,470 [P3436/D3/T22] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 0ms)
+ 2016-02-19 18:52:17,942 [P3436/D3/T46] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-02-19 18:52:17,953 [P3436/D3/T46] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 11ms)
+ 2016-02-19 18:52:17,956 [P3436/D3/T46] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-02-19 18:52:17,957 [P3436/D3/T46] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2016-02-19 18:52:18,080 [P3436/D3/T46] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-02-19 18:52:18,081 [P3436/D3/T46] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2016-02-19 18:52:27,210 [P3436/D2/T37] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: MaxRecompilationsReached
+
+_shutDownMessage=Recompilation limit of 15 reached
+HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.Compilation.DiskBuildResultCache.ShutdownCallBack(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2016-02-19 18:53:14,038 [P3436/D3/T22] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-02-18 18:53:13
+ 2016-02-19 18:53:14,158 [P3436/D3/T46] INFO  umbraco.content - Load Xml from file...
+ 2016-02-19 18:53:14,181 [P3436/D3/T46] INFO  umbraco.content - Loaded Xml from file.
+ 2016-02-19 18:53:14,190 [P3436/D3/T46] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-02-19 18:53:14,191 [P3436/D3/T46] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 1ms)
+ 2016-02-19 18:53:21,377 [P3436/D3/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-02-19 18:53:21,382 [P3436/D3/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 5ms)
+ 2016-02-19 19:02:11,778 [P3436/D3/T23] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-19 19:02:16,055 [P3436/D3/T18] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 19:02:16,068 [P3436/D3/T36] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 19:47:04,394 [P3436/D3/T40] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: admin, IP Address: ::1
+ 2016-02-19 21:22:12,695 [P3436/D3/T52] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username admin from IP address ::1
+ 2016-02-19 21:22:12,699 [P3436/D3/T52] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: admin logged in from IP address ::1
+ 2016-02-19 21:44:28,421 [P3436/D3/T57] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Editors.IEditorValidator
+ 2016-02-19 21:44:28,484 [P3436/D3/T57] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Editors.IEditorValidator, found 0 (took 62ms)
+ 2016-02-19 21:51:24,146 [P3436/D3/T12] WARN  Umbraco.Core.Models.Member - Trying to access the 'PasswordQuestion' property on Umbraco.Core.Models.Member but the umbracoMemberPasswordRetrievalQuestion property does not exist on the member type so a default value is returned. Ensure that you have a property type with alias: umbracoMemberPasswordRetrievalQuestion configured on your member type in order to use the 'PasswordQuestion' property on the model correctly.
+ 2016-02-19 21:51:24,188 [P3436/D3/T50] WARN  Umbraco.Core.Models.Member - Trying to access the 'PasswordQuestion' property on Umbraco.Core.Models.Member but the umbracoMemberPasswordRetrievalQuestion property does not exist on the member type so a default value is returned. Ensure that you have a property type with alias: umbracoMemberPasswordRetrievalQuestion configured on your member type in order to use the 'PasswordQuestion' property on the model correctly.
+ 2016-02-19 21:53:04,784 [P3436/D3/T3] WARN  Umbraco.Core.Models.Member - An attempt was made to set a value on the property 'PasswordQuestion' on type Umbraco.Core.Models.Member but the property type umbracoMemberPasswordRetrievalQuestion does not exist on the member type, ensure that this property type exists so that setting this property works correctly.
+ 2016-02-19 21:53:04,786 [P3436/D3/T3] WARN  Umbraco.Core.Models.Member - An attempt was made to set a value on the property 'PasswordAnswer' on type Umbraco.Core.Models.Member but the property type umbracoMemberPasswordRetrievalAnswer does not exist on the member type, ensure that this property type exists so that setting this property works correctly.
+ 2016-02-19 21:53:04,858 [P3436/D3/T3] WARN  Umbraco.Core.Models.Member - Trying to access the 'PasswordQuestion' property on Umbraco.Core.Models.Member but the umbracoMemberPasswordRetrievalQuestion property does not exist on the member type so a default value is returned. Ensure that you have a property type with alias: umbracoMemberPasswordRetrievalQuestion configured on your member type in order to use the 'PasswordQuestion' property on the model correctly.
+ 2016-02-19 21:53:42,564 [P3436/D3/T31] WARN  Umbraco.Core.Models.Member - Trying to access the 'PasswordQuestion' property on Umbraco.Core.Models.Member but the umbracoMemberPasswordRetrievalQuestion property does not exist on the member type so a default value is returned. Ensure that you have a property type with alias: umbracoMemberPasswordRetrievalQuestion configured on your member type in order to use the 'PasswordQuestion' property on the model correctly.
+ 2016-02-19 21:53:42,588 [P3436/D3/T42] WARN  Umbraco.Core.Models.Member - Trying to access the 'PasswordQuestion' property on Umbraco.Core.Models.Member but the umbracoMemberPasswordRetrievalQuestion property does not exist on the member type so a default value is returned. Ensure that you have a property type with alias: umbracoMemberPasswordRetrievalQuestion configured on your member type in order to use the 'PasswordQuestion' property on the model correctly.
+ 2016-02-19 22:24:34,060 [P3436/D3/T66] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Login' with Id '0' has been published.
+ 2016-02-19 22:24:38,218 [P3436/D3/T23] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 22:24:38,284 [P3436/D3/T69] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 22:25:45,662 [P3436/D3/T35] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Login' with Id '1099' has been published.
+ 2016-02-19 22:25:49,696 [P3436/D3/T67] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 22:25:49,770 [P3436/D3/T70] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 22:26:39,201 [P3436/D3/T66] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Access Forbidden' with Id '0' has been published.
+ 2016-02-19 22:26:43,238 [P3436/D3/T73] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 22:26:43,289 [P3436/D3/T72] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 22:27:42,306 [P3436/D3/T73] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Register' with Id '0' has been published.
+ 2016-02-19 22:27:46,333 [P3436/D3/T35] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 22:27:46,413 [P3436/D3/T72] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 22:29:38,839 [P3436/D3/T71] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt succeeded for username Pilot1 from IP address ::1
+ 2016-02-19 22:29:38,879 [P3436/D3/T71] WARN  Umbraco.Core.Models.Member - Trying to access the 'PasswordQuestion' property on Umbraco.Core.Models.Member but the umbracoMemberPasswordRetrievalQuestion property does not exist on the member type so a default value is returned. Ensure that you have a property type with alias: umbracoMemberPasswordRetrievalQuestion configured on your member type in order to use the 'PasswordQuestion' property on the model correctly.
+ 2016-02-19 22:30:10,595 [P3436/D3/T66] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt succeeded for username Pilot1 from IP address ::1
+ 2016-02-19 22:30:10,635 [P3436/D3/T66] WARN  Umbraco.Core.Models.Member - Trying to access the 'PasswordQuestion' property on Umbraco.Core.Models.Member but the umbracoMemberPasswordRetrievalQuestion property does not exist on the member type so a default value is returned. Ensure that you have a property type with alias: umbracoMemberPasswordRetrievalQuestion configured on your member type in order to use the 'PasswordQuestion' property on the model correctly.
+ 2016-02-19 22:32:18,716 [P3436/D3/T23] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Access Forbidden' with Id '1100' has been published.
+ 2016-02-19 22:32:22,761 [P3436/D3/T73] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 22:32:22,896 [P3436/D3/T21] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 22:34:22,514 [P3436/D3/T73] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt succeeded for username Passenger1 from IP address ::1
+ 2016-02-19 22:34:22,550 [P3436/D3/T73] WARN  Umbraco.Core.Models.Member - Trying to access the 'PasswordQuestion' property on Umbraco.Core.Models.Member but the umbracoMemberPasswordRetrievalQuestion property does not exist on the member type so a default value is returned. Ensure that you have a property type with alias: umbracoMemberPasswordRetrievalQuestion configured on your member type in order to use the 'PasswordQuestion' property on the model correctly.
+ 2016-02-19 22:34:47,491 [P3436/D3/T66] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt succeeded for username Pilot1 from IP address ::1
+ 2016-02-19 22:34:47,530 [P3436/D3/T66] WARN  Umbraco.Core.Models.Member - Trying to access the 'PasswordQuestion' property on Umbraco.Core.Models.Member but the umbracoMemberPasswordRetrievalQuestion property does not exist on the member type so a default value is returned. Ensure that you have a property type with alias: umbracoMemberPasswordRetrievalQuestion configured on your member type in order to use the 'PasswordQuestion' property on the model correctly.
+ 2016-02-19 22:36:13,586 [P3436/D3/T73] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Register' with Id '1101' has been published.
+ 2016-02-19 22:36:17,617 [P3436/D3/T71] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 22:36:17,705 [P3436/D3/T21] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 22:41:24,284 [P3436/D3/T71] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt succeeded for username passenger1 from IP address ::1
+ 2016-02-19 22:41:24,317 [P3436/D3/T71] WARN  Umbraco.Core.Models.Member - Trying to access the 'PasswordQuestion' property on Umbraco.Core.Models.Member but the umbracoMemberPasswordRetrievalQuestion property does not exist on the member type so a default value is returned. Ensure that you have a property type with alias: umbracoMemberPasswordRetrievalQuestion configured on your member type in order to use the 'PasswordQuestion' property on the model correctly.
+ 2016-02-19 22:45:40,992 [P3436/D3/T71] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt succeeded for username Pilot1 from IP address ::1
+ 2016-02-19 22:45:41,047 [P3436/D3/T71] WARN  Umbraco.Core.Models.Member - Trying to access the 'PasswordQuestion' property on Umbraco.Core.Models.Member but the umbracoMemberPasswordRetrievalQuestion property does not exist on the member type so a default value is returned. Ensure that you have a property type with alias: umbracoMemberPasswordRetrievalQuestion configured on your member type in order to use the 'PasswordQuestion' property on the model correctly.
+ 2016-02-19 22:52:29,617 [P3436/D3/T70] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\tmtq-mac1\Documents\Visual Studio 2015\Projects\AloftMVC\AloftMVC\Views\Master.cshtml(78): error CS1061: 'System.Web.Mvc.HtmlHelper<Umbraco.Web.Models.RenderModel>' does not contain a definition for 'RenderJsHere' and no extension method 'RenderJsHere' accepting a first argument of type 'System.Web.Mvc.HtmlHelper<Umbraco.Web.Models.RenderModel>' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.WebPageBase.CreatePageFromVirtualPath(String virtualPath, HttpContextBase httpContext, Func`2 virtualPathExists, DisplayModeProvider displayModeProvider, IDisplayMode displayMode)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2016-02-19 22:53:13,604 [P3436/D3/T72] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-02-18 22:53:13
+ 2016-02-19 23:25:00,495 [P3436/D3/T12] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Blog' with Id '1075' has been published.
+ 2016-02-19 23:25:04,617 [P3436/D3/T65] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 23:25:04,633 [P3436/D3/T65] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 23:25:37,221 [P3436/D3/T62] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Blog' with Id '1075' has been published.
+ 2016-02-19 23:25:41,237 [P3436/D3/T65] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 23:25:41,295 [P3436/D3/T29] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 23:28:33,791 [P3436/D3/T14] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Profile' with Id '0' has been published.
+ 2016-02-19 23:28:37,856 [P3436/D3/T13] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 23:28:37,869 [P3436/D3/T16] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 23:33:34,233 [P3436/D3/T62] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Profile' with Id '1102' has been unpublished.
+ 2016-02-19 23:33:37,703 [P3436/D3/T10] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-02-19 23:33:38,286 [P3436/D3/T14] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 23:33:38,333 [P3436/D3/T26] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 23:37:53,511 [P3436/D3/T64] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Login' with Id '1099' has been published.
+ 2016-02-19 23:37:57,551 [P3436/D3/T62] INFO  umbraco.content - Save Xml to file...
+ 2016-02-19 23:37:57,633 [P3436/D3/T55] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-19 23:52:54,046 [P3436/D3/T32] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: admin, IP Address: ::1
+ 2016-02-19 23:55:35,726 [P3436/D3/T61] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\tmtq-mac1\Documents\Visual Studio 2015\Projects\AloftMVC\AloftMVC\Views\Partials\MainNavigation.cshtml(36): error CS0428: Cannot convert method group 'IsLoggedIn' to non-delegate type 'bool'. Did you intend to invoke the method?
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.Html.RenderPartialExtensions.RenderPartial(HtmlHelper htmlHelper, String partialViewName)
+   at ASP._Page_Views_Master_cshtml.Execute() in c:\Users\tmtq-mac1\Documents\Visual Studio 2015\Projects\AloftMVC\AloftMVC\Views\Master.cshtml:line 49
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2016-02-19 23:55:36,000 [P3436/D3/T49] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\tmtq-mac1\Documents\Visual Studio 2015\Projects\AloftMVC\AloftMVC\Views\Partials\MainNavigation.cshtml(36): error CS0428: Cannot convert method group 'IsLoggedIn' to non-delegate type 'bool'. Did you intend to invoke the method?
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.Html.RenderPartialExtensions.RenderPartial(HtmlHelper htmlHelper, String partialViewName)
+   at ASP._Page_Views_Master_cshtml.Execute() in c:\Users\tmtq-mac1\Documents\Visual Studio 2015\Projects\AloftMVC\AloftMVC\Views\Master.cshtml:line 49
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2016-02-19 23:56:13,031 [P3436/D3/T62] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\tmtq-mac1\Documents\Visual Studio 2015\Projects\AloftMVC\AloftMVC\Views\Partials\MainNavigation.cshtml(38): error CS1502: The best overloaded method match for 'System.Web.WebPages.WebPageExecutingBase.Write(System.Web.WebPages.HelperResult)' has some invalid arguments
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.Html.RenderPartialExtensions.RenderPartial(HtmlHelper htmlHelper, String partialViewName)
+   at ASP._Page_Views_Master_cshtml.Execute() in c:\Users\tmtq-mac1\Documents\Visual Studio 2015\Projects\AloftMVC\AloftMVC\Views\Master.cshtml:line 49
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2016-02-19 23:58:33,991 [P3436/D3/T62] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username admin from IP address ::1
+ 2016-02-19 23:58:33,991 [P3436/D3/T62] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: admin logged in from IP address ::1

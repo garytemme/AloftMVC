@@ -1,0 +1,14 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+	Layout = "Master.cshtml";
+}
+
+<div role="content">
+	<section class="light">
+		<div class="container">
+			<div class="row">
+				@Html.Action("Index", "MemberProfileSurface")
+			</div>
+		</div>
+	</section>
+</div>

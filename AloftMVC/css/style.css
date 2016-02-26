@@ -1,0 +1,71 @@
+/* Go crazy with your own styles here */
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */
+
+
+.darkBlue {
+	background: #0059B2	;
+}
+
+.darkBlue * {
+	color: #fff;
+}
+
+.darkBlue a,
+.darkBlue a:visited {
+	color: #f45376;
+}
+
+.darkBlue a:hover,
+.darkBlue a:visited:hover {
+	text-decoration: underline;
+}
+
+.darkBlue a.button {
+	border: 1px solid #fff;
+	background: rgba(255, 255, 255, 0);
+	color: #fff;
+}
+
+.darkBlue a.button:hover {
+	background: #fff;
+	color: #000;
+}
+
+.darkBlue a.button.fill {
+	background: #fff;
+	color: #000;
+}
+
+.darkBlue a.button.fill:hover {
+	background: rgba(255, 255, 255, 0.5);
+	color: #fff;
+}
+
+.darkBlue code,
+.darkBlue pre {
+	background-color: rgba(248, 248, 248, 0.1);
+}
+
+.darkBlue + .triangle:before {
+	border-color: transparent transparent transparent #0059B2;
+}
+
+footer.darkBlue a {
+	color: rgba(255, 255, 255, 0.6) !important;
+	font-size: 1rem;
+	border-bottom: 1px solid transparent;
+	padding-bottom: 3px;
+	font-family: "Lato", sans-serif;
+	font-weight: 100;
+}
+
+footer.darkBlue a:hover {
+	color: rgba(255, 255, 255, 0.9) !important;
+	border-bottom: 1px solid #fff !important;
+	padding-bottom: 3px;
+	text-decoration: none;
+}
+
+form-control-textBox {
+	width: 500;	
+}

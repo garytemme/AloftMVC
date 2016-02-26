@@ -1,0 +1,112 @@
+﻿ 2016-02-17 10:30:27,467 [P4680/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.4.0 application starting on WIN-CD4BT6VKQNT
+ 2016-02-17 10:30:27,492 [P4680/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-02-17 10:30:27,505 [P4680/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 13ms)
+ 2016-02-17 10:30:27,564 [P4680/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-02-17 10:30:27,846 [P4680/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 282ms)
+ 2016-02-17 10:30:27,863 [P4680/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-02-17 10:30:27,869 [P4680/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 5ms)
+ 2016-02-17 10:30:27,869 [P4680/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-02-17 10:30:27,875 [P4680/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 5ms)
+ 2016-02-17 10:30:27,892 [P4680/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-02-17 10:30:27,897 [P4680/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 5ms)
+ 2016-02-17 10:30:27,897 [P4680/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-02-17 10:30:27,904 [P4680/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 6ms)
+ 2016-02-17 10:30:27,940 [P4680/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-02-17 10:30:27,948 [P4680/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 8ms)
+ 2016-02-17 10:30:27,948 [P4680/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-02-17 10:30:27,955 [P4680/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 6ms)
+ 2016-02-17 10:30:28,871 [P4680/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-02-17 10:30:29,123 [P4680/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-02-17 10:30:29,163 [P4680/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-02-17 10:30:29,209 [P4680/D2/T1] WARN  Umbraco.Core.Sync.DatabaseServerMessenger - No last synced Id found, this generally means this is a new server/install. The server will build its caches and indexes, and then adjust its last synced Id to the latest found in the database and maintain cache updates based on that Id.
+ 2016-02-17 10:30:29,256 [P4680/D2/T1] INFO  umbraco.content - Load Xml from file...
+ 2016-02-17 10:30:29,278 [P4680/D2/T1] INFO  umbraco.content - Loaded Xml from file.
+ 2016-02-17 10:30:29,290 [P4680/D2/T1] INFO  umbraco.content - Loading content from database...
+ 2016-02-17 10:30:30,134 [P4680/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-02-17 10:30:30,145 [P4680/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 11ms)
+ 2016-02-17 10:30:30,493 [P4680/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-02-17 10:30:30,526 [P4680/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-02-17 10:30:30,527 [P4680/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-02-17 10:30:30,553 [P4680/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 3162ms)
+ 2016-02-17 10:30:31,623 [P4680/D2/T8] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:55026/umbraco (UmbracoModule request)
+ 2016-02-17 10:30:35,216 [P4680/D2/T9] INFO  umbraco.content - Save Xml to file...
+ 2016-02-17 10:30:35,231 [P4680/D2/T3] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-17 10:31:42,268 [P4680/D2/T8] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-02-16 10:31:42
+ 2016-02-17 10:31:42,329 [P4680/D2/T13] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-02-17 10:31:42,345 [P4680/D2/T13] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 8ms)
+ 2016-02-17 10:37:17,833 [P4680/D2/T21] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username gary@temteq.com from IP address ::1
+ 2016-02-17 10:37:31,055 [P4680/D2/T21] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username admin from IP address ::1
+ 2016-02-17 10:37:36,024 [P4680/D2/T21] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username admin from IP address ::1
+ 2016-02-17 10:37:44,724 [P4680/D2/T19] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username admin@temteq.com from IP address ::1
+ 2016-02-17 10:41:49,732 [P4680/D2/T24] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username admin from IP address ::1
+ 2016-02-17 10:43:18,591 [P4680/D2/T19] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username admin@admin.com from IP address ::1
+ 2016-02-17 10:43:18,592 [P4680/D2/T19] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: admin@admin.com logged in from IP address ::1
+ 2016-02-17 10:43:18,775 [P4680/D2/T19] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-02-17 10:43:18,783 [P4680/D2/T19] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 7ms)
+ 2016-02-17 10:43:19,021 [P4680/D2/T19] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-02-17 10:43:19,028 [P4680/D2/T19] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 7ms)
+ 2016-02-17 10:43:19,181 [P4680/D2/T24] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-02-17 10:43:19,181 [P4680/D2/T24] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-02-17 10:43:19,183 [P4680/D2/T24] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-02-17 10:43:19,196 [P4680/D2/T24] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 13ms)
+ 2016-02-17 10:43:19,232 [P4680/D2/T19] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-02-17 10:43:19,247 [P4680/D2/T19] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 15ms)
+ 2016-02-17 10:50:59,152 [P4680/D2/T12] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-02-17 10:50:59,165 [P4680/D2/T12] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 12ms)
+ 2016-02-17 10:55:36,393 [P4680/D2/T16] WARN  Umbraco.Core.Models.Member - An attempt was made to set a value on the property 'PasswordQuestion' on type Umbraco.Core.Models.Member but the property type umbracoMemberPasswordRetrievalQuestion does not exist on the member type, ensure that this property type exists so that setting this property works correctly.
+ 2016-02-17 10:55:36,393 [P4680/D2/T16] WARN  Umbraco.Core.Models.Member - An attempt was made to set a value on the property 'PasswordAnswer' on type Umbraco.Core.Models.Member but the property type umbracoMemberPasswordRetrievalAnswer does not exist on the member type, ensure that this property type exists so that setting this property works correctly.
+ 2016-02-17 10:55:36,418 [P4680/D2/T16] WARN  Umbraco.Core.Models.Member - Trying to access the 'PasswordQuestion' property on Umbraco.Core.Models.Member but the umbracoMemberPasswordRetrievalQuestion property does not exist on the member type so a default value is returned. Ensure that you have a property type with alias: umbracoMemberPasswordRetrievalQuestion configured on your member type in order to use the 'PasswordQuestion' property on the model correctly.
+ 2016-02-17 10:55:47,201 [P4680/D2/T31] WARN  Umbraco.Core.Models.Member - Trying to access the 'PasswordQuestion' property on Umbraco.Core.Models.Member but the umbracoMemberPasswordRetrievalQuestion property does not exist on the member type so a default value is returned. Ensure that you have a property type with alias: umbracoMemberPasswordRetrievalQuestion configured on your member type in order to use the 'PasswordQuestion' property on the model correctly.
+ 2016-02-17 10:55:47,231 [P4680/D2/T28] WARN  Umbraco.Core.Models.Member - Trying to access the 'PasswordQuestion' property on Umbraco.Core.Models.Member but the umbracoMemberPasswordRetrievalQuestion property does not exist on the member type so a default value is returned. Ensure that you have a property type with alias: umbracoMemberPasswordRetrievalQuestion configured on your member type in order to use the 'PasswordQuestion' property on the model correctly.
+ 2016-02-17 11:18:06,063 [P4680/D2/T42] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2016-02-17 11:18:12,317 [P4680/D2/T42] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2016-02-17 11:18:12,318 [P4680/D2/T42] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2016-02-17 11:18:36,116 [P4680/D2/T42] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field min
+ 2016-02-17 11:18:36,116 [P4680/D2/T42] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field step
+ 2016-02-17 11:18:36,116 [P4680/D2/T42] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field max
+ 2016-02-17 11:27:19,878 [P4680/D2/T54] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-02-17 11:27:19,878 [P4680/D2/T54] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-02-17 11:30:35,385 [P4680/D2/T54] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field crops
+ 2016-02-17 11:53:48,796 [P4680/D2/T32] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Test Page' with Id '0' has been published.
+ 2016-02-17 11:53:52,938 [P4680/D2/T11] INFO  umbraco.content - Save Xml to file...
+ 2016-02-17 11:53:52,989 [P4680/D2/T48] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-17 12:11:10,583 [P4680/D2/T23] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: admin@admin.com, IP Address: ::1
+ 2016-02-17 12:11:48,605 [P4680/D2/T62] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username admin from IP address ::1
+ 2016-02-17 12:11:48,605 [P4680/D2/T62] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: admin logged in from IP address ::1
+ 2016-02-17 12:11:48,716 [P4680/D2/T62] ERROR Umbraco.Web.WebApi.Filters.AngularAntiForgeryHelper - Could not validate XSRF token
+System.Web.Mvc.HttpAntiForgeryException (0x80004005): The provided anti-forgery token was meant for user "admin@admin.com", but the current user is "admin".
+   at System.Web.Helpers.AntiXsrf.TokenValidator.ValidateTokens(HttpContextBase httpContext, IIdentity identity, AntiForgeryToken sessionToken, AntiForgeryToken fieldToken)
+   at System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext, String cookieToken, String formToken)
+   at System.Web.Helpers.AntiForgery.Validate(String cookieToken, String formToken)
+   at Umbraco.Web.WebApi.Filters.AngularAntiForgeryHelper.ValidateTokens(String cookieToken, String headerToken)
+ 2016-02-17 12:13:01,809 [P4680/D2/T59] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Test Page' with Id '1083' has been published.
+ 2016-02-17 12:13:05,936 [P4680/D2/T11] INFO  umbraco.content - Save Xml to file...
+ 2016-02-17 12:13:05,976 [P4680/D2/T21] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-17 12:14:43,000 [P4680/D2/T23] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Test Page' with Id '1083' has been published.
+ 2016-02-17 12:14:47,054 [P4680/D2/T11] INFO  umbraco.content - Save Xml to file...
+ 2016-02-17 12:14:47,077 [P4680/D2/T21] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-17 12:22:14,958 [P4680/D2/T16] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Test Page' with Id '1083' has been unpublished.
+ 2016-02-17 12:22:19,052 [P4680/D2/T33] INFO  umbraco.content - Save Xml to file...
+ 2016-02-17 12:22:19,091 [P4680/D2/T41] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-17 12:26:13,030 [P4680/D2/T50] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-17 12:26:17,133 [P4680/D2/T33] INFO  umbraco.content - Save Xml to file...
+ 2016-02-17 12:26:17,250 [P4680/D2/T49] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-17 12:27:11,647 [P4680/D2/T56] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-02-17 12:27:15,691 [P4680/D2/T33] INFO  umbraco.content - Save Xml to file...
+ 2016-02-17 12:27:15,744 [P4680/D2/T47] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-17 12:28:04,120 [P4680/D2/T16] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Basics' with Id '1066' has been published.
+ 2016-02-17 12:28:08,170 [P4680/D2/T33] INFO  umbraco.content - Save Xml to file...
+ 2016-02-17 12:28:08,198 [P4680/D2/T52] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-17 12:28:37,083 [P4680/D2/T33] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Basics' with Id '1066' has been published.
+ 2016-02-17 12:28:41,119 [P4680/D2/T34] INFO  umbraco.content - Save Xml to file...
+ 2016-02-17 12:28:41,213 [P4680/D2/T34] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-17 12:29:59,577 [P4680/D2/T46] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Basics' with Id '1066' has been published.
+ 2016-02-17 12:30:03,617 [P4680/D2/T34] INFO  umbraco.content - Save Xml to file...
+ 2016-02-17 12:30:03,642 [P4680/D2/T40] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-17 13:06:46,708 [P4680/D2/T51] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: admin, IP Address: ::1
+ 2016-02-17 13:12:30,478 [P4680/D2/T56] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username admin from IP address ::1
+ 2016-02-17 13:12:30,478 [P4680/D2/T56] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: admin logged in from IP address ::1
+ 2016-02-17 13:32:00,994 [P4680/D2/T49] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: admin, IP Address: ::1
+ 2016-02-17 15:21:34,024 [P4680/D2/T52] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-02-16 15:21:34
+ 2016-02-17 16:47:09,800 [P4680/D2/T28] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username admin from IP address ::1
+ 2016-02-17 16:47:09,801 [P4680/D2/T28] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: admin logged in from IP address ::1

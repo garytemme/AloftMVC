@@ -1,0 +1,77 @@
+﻿@model AloftMVC.Models.MemberRegisterVM
+
+@*
+    Html.EnableClientValidation();
+    Html.EnableUnobtrusiveJavaScript();
+    Html.RequiresJs("/umbraco_client/ui/jquery.js");
+    Html.RequiresJs("/umbraco_client/Application/JQuery/jquery.validate.min.js");
+    Html.RequiresJs("/umbraco_client/Application/JQuery/jquery.validate.unobtrusive.min.js");
+*@ 
+
+@*NOTE: This RenderJsHere code should be put on your main template page where the rest of your script tags are placed*@
+@*Html.RenderJsHere();*@
+
+
+@{
+    using (Html.BeginUmbracoForm<AloftMVC.Controllers.MemberRegisterSurfaceController>("PostHandler"))
+        
+    {     
+
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            <h4>Become an Aloft Jet Setter - Passengers and Pilots/Operators Register Here</h4>
+            <hr />
+            @Html.ValidationSummary(true, "Error in form entries", new { @class = "has-warning" }) @*Html.ValidationSummary("registerModel", true) *@
+            <div class="form-group">
+                @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.TextBoxFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Name, "", new { @class = "has-warning" })
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Username, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.TextBoxFor(model => model.Username, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Username, "", new { @class = "has-warning" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.TextBoxFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Email, "", new { @class = "has-warning" })
+                    </div>
+                </div>
+                @* TODO - implement dual password checking *@
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Password, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.PasswordFor(model => model.Password, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Password, "", new { @class = "has-warning" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.MemberGroup, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.DropDownListFor(m => m.MemberGroup, Model.MemberGroups, "Select your role", new { @class = "has-warning" })
+                        @Html.ValidationMessageFor(model => model.MemberGroup, "", new { @class = "has-warning" })
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Register" class="btn btn-default" />
+                </div>
+            </div> 
+        </div>   
+    }
+}
+
+
+
+
